@@ -21,6 +21,7 @@ avg = round((a + b)/ 2, 2)
 sumi = a + b
 print(sumi, avg, sep='; ')
 ```
+---
 ## 🔹 **Lab 1 — Tarefa 3**
 ```python
 p = int(input())  # preço
