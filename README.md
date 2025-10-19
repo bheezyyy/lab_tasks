@@ -1,10 +1,16 @@
-WELCOME TO THE FUTURE... --- ## 🔹 **Lab 1 — Tarefa 1**
-python
+WELCOME TO THE FUTURE... 
+
+--- 
+## 🔹 **Lab 1 — Tarefa 1**
+```python
 name = input('Enter your name: ')
 age = int(input('Enter your age: '))
 print(f'Hello, {name}! In a year, you will be {age + 1}.')
---- ## 🔹 **Lab 1 — Tarefa 2**
-python
+
+```
+---
+ ## 🔹 **Lab 1 — Tarefa 2**
+```python
 a = input()
 b = input()
 a = float(a.replace(',', '.'))
@@ -12,8 +18,9 @@ b = float(b.replace(',', '.'))
 avg = round((a + b)/ 2, 2)
 sumi = a + b
 print(sumi, avg, sep='; ')
+```
 ## 🔹 **Lab 1 — Tarefa 3**
-python
+```python
 p = int(input())  # preço
 d = int(input())  # desconto %
 n = int(input())  # imposto %
@@ -25,18 +32,22 @@ total = b + tax
 print(f'Base: {round(b, 2)} ₽')
 print(f'Imposto: {round(tax, 2)} ₽')
 print(f'Total: {round(total, 2)} ₽')
---- ## 🔹 **Lab 1 — Tarefa 4**
-python
+```
+---
+## 🔹 **Lab 1 — Tarefa 4**
+``` python
 t = int(input())
 print(f'{t//60}:{t%60:02d}')
+```
 --- ## 🔹 **Lab 1 — Tarefa 5**
-python
+```python
 s = input().strip()
 init = ''.join([x[0] for x in s.split()])
 print(init)
 print(len(s.replace(' ', '')) + 2)
+```
 --- ## 🔹 **Lab 1 — Tarefa 6**
-python
+```python
 n = int(input())
 pres, dist = 0, 0
 
@@ -48,8 +59,9 @@ for _ in range(n):
         dist += 1
 
 print(pres, dist)
+```
 --- ## 🔹 **Lab 1 — Tarefa 7**
-python
+```python
 s = input()
 for i, c in enumerate(s):
     if c.isupper():
@@ -60,8 +72,9 @@ for j in range(start, len(s)):
         step = j - start + 1
         break
 print(s[start::step])
+```
 --- ## 🔹 **Lab 2 — A**
-python
+```python
 def min_max(lst):
     if not lst: raise ValueError("Empty list")
     return min(lst), max(lst)
@@ -80,8 +93,9 @@ def flat(matrix):
 print(min_max([-3.1, 2]))
 print(uniq_sorted([1.0, 1, 2.5, 2.5, 0]))
 print(flat([[1], [], [2, 3]]))
+```
 --- ## 🔹 **Lab 2 — B**
-python
+```python
 def transpose(m):
     if not m: return []
     if any(len(row) != len(m[0]) for row in m): raise ValueError("Jagged")
@@ -98,8 +112,9 @@ def col_sum(m):
 print(transpose([[1,2],[3,4]]))
 print(row_sum([[1,2,3],[4,5,6]]))
 print(col_sum([[-1,1],[10,-10]]))
+```
 --- ## 🔹 **Lab 2 — C**
-python
+```python
 def name_to_initials(name):
     parts = name.strip().split()
     return parts[0].capitalize() + ' ' + ''.join([p[0].upper()+'.' for p in parts[1:]])
@@ -113,8 +128,9 @@ def format_student(data):
     print(f'{name_to_initials(name)}, group {grp}, GPA {gpa:.2f}')
 
 format_student(("  petrova   anna  ivanovna ", "XYZ-01", 4.0))
+```
 --- ## 🔹 **Lab 3 — A**
-python
+```python
 import string
 
 def clean(text, lower=True, replace_yo=True):
@@ -137,8 +153,9 @@ print(clean("  exemplo  de   texto "))
 print(split_words("texto 😀 emoji"))
 print(word_freq(["a", "b", "a"]))
 print(top_words({'a': 2, 'b': 1}))
+```
 --- ## 🔹 **Lab 3 — B**
-python
+```python
 from text import clean, split_words, word_freq, top_words
 
 def main():
@@ -158,3 +175,4 @@ def main():
         print(f'{w:^12} | {c:^6}')
 
 main()
+```
