@@ -21,6 +21,7 @@ avg = round((a + b)/ 2, 2)
 sumi = a + b
 print(sumi, avg, sep='; ')
 ```
+![Descrição da imagem](img/lab01/Task02.png)
 ---
 ## 🔹 **Lab 1 — Tarefa 3**
 ```python
@@ -36,12 +37,14 @@ print(f'Base: {round(b, 2)} ₽')
 print(f'Imposto: {round(tax, 2)} ₽')
 print(f'Total: {round(total, 2)} ₽')
 ```
+![Descrição da imagem](img/lab01/Task03.png)
 ---
 ## 🔹 **Lab 1 — Tarefa 4**
 ``` python
 t = int(input())
 print(f'{t//60}:{t%60:02d}')
 ```
+![Descrição da imagem](img/lab01/Task04.png)
 --- ## 🔹 **Lab 1 — Tarefa 5**
 ```python
 s = input().strip()
@@ -49,6 +52,7 @@ init = ''.join([x[0] for x in s.split()])
 print(init)
 print(len(s.replace(' ', '')) + 2)
 ```
+![Descrição da imagem](img/lab01/Task05.png)
 --- ## 🔹 **Lab 1 — Tarefa 6**
 ```python
 n = int(input())
@@ -63,6 +67,7 @@ for _ in range(n):
 
 print(pres, dist)
 ```
+![Descrição da imagem](img/lab01/Task06.png)
 --- ## 🔹 **Lab 1 — Tarefa 7**
 ```python
 s = input()
@@ -76,6 +81,7 @@ for j in range(start, len(s)):
         break
 print(s[start::step])
 ```
+![Descrição da imagem](img/lab01/Task07.png)
 --- ## 🔹 **Lab 2 — A**
 ```python
 def min_max(lst):
