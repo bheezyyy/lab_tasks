@@ -8,6 +8,8 @@ age = int(input('Enter your age: '))
 print(f'Hello, {name}! In a year, you will be {age + 1}.')
 
 ```
+![Descrição da imagem](img/lab01/Task01.png)
+
 ---
  ## 🔹 **Lab 1 — Tarefa 2**
 ```python
@@ -19,6 +21,7 @@ avg = round((a + b)/ 2, 2)
 sumi = a + b
 print(sumi, avg, sep='; ')
 ```
+---
 ## 🔹 **Lab 1 — Tarefa 3**
 ```python
 p = int(input())  # preço
