@@ -8,6 +8,7 @@ age = int(input('Enter your age: '))
 print(f'Hello, {name}! In a year, you will be {age + 1}.')
 
 ```
+lab_tasks/blob/main/img/lab01/Task01.png
 ---
  ## 🔹 **Lab 1 — Tarefa 2**
 ```python
