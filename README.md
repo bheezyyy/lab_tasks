@@ -186,9 +186,11 @@ def main():
 main()
 ```
 --- ## 🔹 **Lab 4 **
-##🔹 **[io_txt_csv.py](src/lab04/io_txt_csv.py)**
 
-##🔹 **[text_report.py](src/lab04/text_report.py)** 
+##
+**[io_txt_csv.py](src/lab04/io_txt_csv.py)**
+
+## **[text_report.py](src/lab04/text_report.py)** 
 
 ## Output
 
