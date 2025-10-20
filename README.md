@@ -185,3 +185,9 @@ def main():
 
 main()
 ```
+--- ## 🔹 **Lab 4 **
+модуль для работы с файлами - **[io_txt_csv.py](src/lab04/io_txt_csv.py)** 
+скрипт генерации отчетов - **[text_report.py](src/lab04/text_report.py)** 
+
+## Output
+
