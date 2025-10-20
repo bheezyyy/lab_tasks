@@ -103,6 +103,7 @@ print(min_max([-3.1, 2]))
 print(uniq_sorted([1.0, 1, 2.5, 2.5, 0]))
 print(flat([[1], [], [2, 3]]))
 ```
+![Descrição da imagem](img/lab02/01.png)
 --- ## 🔹 **Lab 2 — B**
 ```python
 def transpose(m):
@@ -122,6 +123,7 @@ print(transpose([[1,2],[3,4]]))
 print(row_sum([[1,2,3],[4,5,6]]))
 print(col_sum([[-1,1],[10,-10]]))
 ```
+![Descrição da imagem](img/lab02/02.png)
 --- ## 🔹 **Lab 2 — C**
 ```python
 def name_to_initials(name):
@@ -138,6 +140,7 @@ def format_student(data):
 
 format_student(("  petrova   anna  ivanovna ", "XYZ-01", 4.0))
 ```
+![Descrição da imagem](img/lab02/03.png)
 --- ## 🔹 **Lab 3 — A**
 ```python
 import string
@@ -163,6 +166,7 @@ print(split_words("texto 😀 emoji"))
 print(word_freq(["a", "b", "a"]))
 print(top_words({'a': 2, 'b': 1}))
 ```
+![Descrição da imagem](img/lab03/01.png)
 --- ## 🔹 **Lab 3 — B**
 ```python
 from text import clean, split_words, word_freq, top_words
@@ -185,11 +189,11 @@ def main():
 
 main()
 ```
---- ## 🔹 **Lab 4 **
+![Descrição da imagem](img/lab03/02.png)
+--- ## 🔹 **Lab 4 — A**
 
-##
-**[io_txt_csv.py](src/lab04/io_txt_csv.py)**
-
+## **[io_txt_csv.py](src/lab04/io_txt_csv.py)**
+--- ## 🔹 **Lab 4 — B**
 ## **[text_report.py](src/lab04/text_report.py)** 
 
 ## Output
