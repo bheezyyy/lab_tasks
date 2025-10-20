@@ -198,3 +198,5 @@ main()
 
 ## Output
 
+![Descrição da imagem](img/lab04/01.png)
+
