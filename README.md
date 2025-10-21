@@ -45,7 +45,8 @@ t = int(input())
 print(f'{t//60}:{t%60:02d}')
 ```
 ![Descrição da imagem](img/lab01/Task04.png)
---- ## 🔹 **Lab 1 — Tarefa 5**
+--- 
+## 🔹 **Lab 1 — Tarefa 5**
 ```python
 s = input().strip()
 init = ''.join([x[0] for x in s.split()])
@@ -53,7 +54,8 @@ print(init)
 print(len(s.replace(' ', '')) + 2)
 ```
 ![Descrição da imagem](img/lab01/Task05.png)
---- ## 🔹 **Lab 1 — Tarefa 6**
+--- 
+## 🔹 **Lab 1 — Tarefa 6**
 ```python
 n = int(input())
 pres, dist = 0, 0
@@ -68,7 +70,8 @@ for _ in range(n):
 print(pres, dist)
 ```
 ![Descrição da imagem](img/lab01/Task06.png)
---- ## 🔹 **Lab 1 — Tarefa 7**
+--- 
+## 🔹 **Lab 1 — Tarefa 7**
 ```python
 s = input()
 for i, c in enumerate(s):
