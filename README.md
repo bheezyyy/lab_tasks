@@ -1,5 +1,6 @@
 WELCOME TO THE FUTURE... 
 
+
 --- 
 ## 🔹 **Lab 1 — Tarefa 1**
 ```python
@@ -45,7 +46,8 @@ t = int(input())
 print(f'{t//60}:{t%60:02d}')
 ```
 ![Descrição da imagem](img/lab01/Task04.png)
---- ## 🔹 **Lab 1 — Tarefa 5**
+--- 
+## 🔹 **Lab 1 — Tarefa 5**
 ```python
 s = input().strip()
 init = ''.join([x[0] for x in s.split()])
@@ -53,7 +55,8 @@ print(init)
 print(len(s.replace(' ', '')) + 2)
 ```
 ![Descrição da imagem](img/lab01/Task05.png)
---- ## 🔹 **Lab 1 — Tarefa 6**
+--- 
+## 🔹 **Lab 1 — Tarefa 6**
 ```python
 n = int(input())
 pres, dist = 0, 0
@@ -68,7 +71,8 @@ for _ in range(n):
 print(pres, dist)
 ```
 ![Descrição da imagem](img/lab01/Task06.png)
---- ## 🔹 **Lab 1 — Tarefa 7**
+--- 
+## 🔹 **Lab 1 — Tarefa 7**
 ```python
 s = input()
 for i, c in enumerate(s):
@@ -82,7 +86,8 @@ for j in range(start, len(s)):
 print(s[start::step])
 ```
 ![Descrição da imagem](img/lab01/Task07.png)
---- ## 🔹 **Lab 2 — A**
+--- 
+## 🔹 **Lab 2 — A**
 ```python
 def min_max(lst):
     if not lst: raise ValueError("Empty list")
@@ -103,7 +108,9 @@ print(min_max([-3.1, 2]))
 print(uniq_sorted([1.0, 1, 2.5, 2.5, 0]))
 print(flat([[1], [], [2, 3]]))
 ```
---- ## 🔹 **Lab 2 — B**
+![Descrição da imagem](img/lab02/01.png)
+--- 
+## 🔹 **Lab 2 — B**
 ```python
 def transpose(m):
     if not m: return []
@@ -122,7 +129,9 @@ print(transpose([[1,2],[3,4]]))
 print(row_sum([[1,2,3],[4,5,6]]))
 print(col_sum([[-1,1],[10,-10]]))
 ```
---- ## 🔹 **Lab 2 — C**
+![Descrição da imagem](img/lab02/02.png)
+--- 
+## 🔹 **Lab 2 — C**
 ```python
 def name_to_initials(name):
     parts = name.strip().split()
@@ -138,7 +147,9 @@ def format_student(data):
 
 format_student(("  petrova   anna  ivanovna ", "XYZ-01", 4.0))
 ```
---- ## 🔹 **Lab 3 — A**
+![Descrição da imagem](img/lab02/03.png)
+--- 
+## 🔹 **Lab 3 — A**
 ```python
 import string
 
@@ -163,7 +174,9 @@ print(split_words("texto 😀 emoji"))
 print(word_freq(["a", "b", "a"]))
 print(top_words({'a': 2, 'b': 1}))
 ```
---- ## 🔹 **Lab 3 — B**
+![Descrição da imagem](img/lab03/01.png)
+--- 
+## 🔹 **Lab 3 — B**
 ```python
 from text import clean, split_words, word_freq, top_words
 
@@ -185,3 +198,49 @@ def main():
 
 main()
 ```
+![Descrição da imagem](img/lab03/02.png)
+--- 
+## 🔹 **Lab 4 — A**
+
+## **[io_txt_csv.py](src/lab04/io_txt_csv.py)**
+--- 
+## 🔹 **Lab 4 — B**
+## **[text_report.py](src/lab04/text_report.py)** 
+
+## Output
+
+![Descrição da imagem](img/lab04/01.png)
+
+# ЛР5 — JSON и конвертации (JSON↔CSV, CSV→XLSX)
+
+## Быстрый старт
+```bash
+# активация виртуалки и установка зависимостей
+python -m venv .venv && . .venv/bin/activate  # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+
+# Конверсии (запускайте из корня python_labs/)
+python - <<'PY'
+from src.lab05.json_csv import json_to_csv, csv_to_json
+from src.lab05.csv_xlsx import csv_to_xlsx
+json_to_csv('data/samples/people.json', 'data/out/people_from_json.csv')
+csv_to_json('data/samples/people.csv', 'data/out/people_from_csv.json')
+csv_to_xlsx('data/samples/people.csv', 'data/out/people.xlsx')
+print('Готово')
+PY
+```
+
+## Допущения
+- Кодировка строго UTF-8.
+- Для JSON→CSV заголовки формируются как **алфавитно отсортированное объединение всех ключей**.
+- Для CSV→JSON первая строка — обязательный заголовок; значения сохраняются **как строки**.
+- XLSX создаётся лист **Sheet1**, автоширина ≥ 8 символов.
+
+## Проверка сценариев
+- JSON→CSV: сравните число строк (N объектов → N строк CSV + 1 заголовок).
+- CSV→JSON: сравните множество ключей и количество объектов.
+- CSV→XLSX: откройте файл `data/out/people.xlsx` в Excel/LibreOffice и проверьте ширины колонок.
+
+## Структура
+См. дерево репозитория в условии. В этой сборке созданы минимальные примеры и артефакты.
+
