@@ -95,7 +95,8 @@ print(s[start::step])
 ```
 ![Descrição da imagem](img/lab01/Task07.png)
 --- 
-## 🔹 **Lab 2 — A**
+## ЛР2 — Функции и обработка списков
+## 🔹Задание - 1
 ```python
 def min_max(lst):
     if not lst: raise ValueError("Empty list")
@@ -118,7 +119,7 @@ print(flat([[1], [], [2, 3]]))
 ```
 ![Descrição da imagem](img/lab02/01.png)
 --- 
-## 🔹 **Lab 2 — B**
+## 🔹Задание - 2
 ```python
 def transpose(m):
     if not m: return []
@@ -139,7 +140,7 @@ print(col_sum([[-1,1],[10,-10]]))
 ```
 ![Descrição da imagem](img/lab02/02.png)
 --- 
-## 🔹 **Lab 2 — C**
+## 🔹Задание - 3
 ```python
 def name_to_initials(name):
     parts = name.strip().split()
