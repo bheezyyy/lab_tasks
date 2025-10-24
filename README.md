@@ -10,6 +10,7 @@
 ---
 
 ## ЛР1 — Введение в Python (ввод, строки и арифметика
+## 🔹Задание - 1
 ```python
 name = input('Enter your name: ')
 age = int(input('Enter your age: '))
@@ -19,7 +20,7 @@ print(f'Hello, {name}! In a year, you will be {age + 1}.')
 ![Descrição da imagem](img/lab01/Task01.png)
 
 ---
- ## 🔹 **Lab 1 — Tarefa 2**
+ ##  **Lab 1 — Tarefa 2**
 ```python
 a = input()
 b = input()
