@@ -210,11 +210,13 @@ main()
 ```
 ![Descrição da imagem](img/lab03/02.png)
 --- 
-## 🔹 **Lab 4 — A**
+
+## ЛР4 — Работа с файлами (TXT и CSV)
+## 🔹Задание - 1
 
 ## **[io_txt_csv.py](src/lab04/io_txt_csv.py)**
 --- 
-## 🔹 **Lab 4 — B**
+## 🔹Задание - 2
 ## **[text_report.py](src/lab04/text_report.py)** 
 
 ## Output
