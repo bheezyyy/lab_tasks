@@ -20,7 +20,7 @@ print(f'Hello, {name}! In a year, you will be {age + 1}.')
 ![Descrição da imagem](img/lab01/Task01.png)
 
 ---
- ##  **Lab 1 — Tarefa 2**
+## 🔹Задание - 2
 ```python
 a = input()
 b = input()
