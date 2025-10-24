@@ -158,7 +158,8 @@ format_student(("  petrova   anna  ivanovna ", "XYZ-01", 4.0))
 ```
 ![Descrição da imagem](img/lab02/03.png)
 --- 
-## 🔹 **Lab 3 — A**
+## ЛР3 — Работа с текстом и частотный анализ
+## 🔹Задание - 1
 ```python
 import string
 
@@ -185,7 +186,7 @@ print(top_words({'a': 2, 'b': 1}))
 ```
 ![Descrição da imagem](img/lab03/01.png)
 --- 
-## 🔹 **Lab 3 — B**
+## 🔹Задание - 2
 ```python
 from text import clean, split_words, word_freq, top_words
 
