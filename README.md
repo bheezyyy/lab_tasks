@@ -32,7 +32,7 @@ print(sumi, avg, sep='; ')
 ```
 ![Descrição da imagem](img/lab01/Task02.png)
 ---
-## 🔹 **Lab 1 — Tarefa 3**
+## 🔹Задание - 3
 ```python
 p = int(input())  # preço
 d = int(input())  # desconto %
@@ -48,14 +48,14 @@ print(f'Total: {round(total, 2)} ₽')
 ```
 ![Descrição da imagem](img/lab01/Task03.png)
 ---
-## 🔹 **Lab 1 — Tarefa 4**
+## 🔹Задание - 4
 ``` python
 t = int(input())
 print(f'{t//60}:{t%60:02d}')
 ```
 ![Descrição da imagem](img/lab01/Task04.png)
 --- 
-## 🔹 **Lab 1 — Tarefa 5**
+## 🔹Задание - 5
 ```python
 s = input().strip()
 init = ''.join([x[0] for x in s.split()])
@@ -64,7 +64,7 @@ print(len(s.replace(' ', '')) + 2)
 ```
 ![Descrição da imagem](img/lab01/Task05.png)
 --- 
-## 🔹 **Lab 1 — Tarefa 6**
+## 🔹Задание - 6
 ```python
 n = int(input())
 pres, dist = 0, 0
@@ -80,7 +80,7 @@ print(pres, dist)
 ```
 ![Descrição da imagem](img/lab01/Task06.png)
 --- 
-## 🔹 **Lab 1 — Tarefa 7**
+## 🔹Задание - 7
 ```python
 s = input()
 for i, c in enumerate(s):
