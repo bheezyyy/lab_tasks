@@ -7,9 +7,13 @@ from openpyxl.utils import get_column_letter
 
 __all__ = ["csv_to_xlsx"]
 
+
 def _ensure_ext(path: Path, *allowed: str) -> None:
     if path.suffix.lower() not in allowed:
-        raise ValueError(f"Неверный тип файла для {path.name}: ожидается {', '.join(allowed)}")
+        raise ValueError(
+            f"Неверный тип файла для {path.name}: ожидается {', '.join(allowed)}"
+        )
+
 
 def csv_to_xlsx(csv_path: str, xlsx_path: str) -> None:
     """

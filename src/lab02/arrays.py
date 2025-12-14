@@ -5,6 +5,7 @@ Number = Union[int, float]
 
 # ===== Functions =====
 
+
 def min_max(nums: List[Number]) -> Tuple[Number, Number]:
     """Return (min, max) or raise ValueError if the list is empty."""
     if not nums:
@@ -29,6 +30,7 @@ def flatten(mat: List[Union[List[Number], Tuple[Number, ...]]]) -> List[Number]:
 
 # ===== Input Parsing =====
 
+
 def parse_numbers_input(input_str: str) -> List[Number]:
     """
     Parse comma-separated numbers from user input (ints or floats).
@@ -37,7 +39,10 @@ def parse_numbers_input(input_str: str) -> List[Number]:
     if not input_str.strip():
         return []
     try:
-        return [float(x.strip()) if '.' in x else int(x.strip()) for x in input_str.split(',')]
+        return [
+            float(x.strip()) if "." in x else int(x.strip())
+            for x in input_str.split(",")
+        ]
     except ValueError:
         raise ValueError("Invalid input. Please enter numbers separated by commas.")
 
@@ -60,6 +65,7 @@ def parse_matrix_input(input_str: str) -> List[List[Number]]:
 
 
 # ===== Interactive Menu =====
+
 
 def main():
     print("=== Lab 02: Collections and Matrices ===")

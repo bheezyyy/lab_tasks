@@ -5,10 +5,11 @@ Number = Union[int, float]
 
 # ===== Helper =====
 
+
 def check_rectangular(mat: List[List[Number]]) -> None:
     """
     Ensure all rows have the same length.
-    
+
     Raises:
         ValueError: if the matrix is ragged.
     """
@@ -21,6 +22,7 @@ def check_rectangular(mat: List[List[Number]]) -> None:
 
 
 # ===== Functions =====
+
 
 def transpose(mat: List[List[Number]]) -> List[List[Number]]:
     """Swap rows and columns of a rectangular matrix."""
@@ -48,6 +50,7 @@ def col_sums(mat: List[List[Number]]) -> List[Number]:
 
 # ===== Input Parsing =====
 
+
 def parse_matrix_input(input_str: str) -> List[List[Number]]:
     """
     Parse a full matrix input as a Python literal (list/tuple of rows).
@@ -66,6 +69,7 @@ def parse_matrix_input(input_str: str) -> List[List[Number]]:
 
 
 # ===== Interactive Menu =====
+
 
 def main():
     print("=== Lab 02: Matrix Operations ===")

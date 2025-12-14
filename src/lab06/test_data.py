@@ -11,7 +11,7 @@ people = [
     {"name": "Joao Baptista", "role": "Designer", "age": "25", "country": "Angola"},
     {"name": "Nneka Adebayo", "role": "Manager", "age": "40", "country": "Nigeria"},
     {"name": "Ana Mateus", "role": "Data Analyst", "age": "28", "country": "Angola"},
-    {"name": "Chinedu Eze", "role": "Developer", "age": "32", "country": "Nigeria"}
+    {"name": "Chinedu Eze", "role": "Developer", "age": "32", "country": "Nigeria"},
 ]
 with open("data/samples/people.json", "w") as f:
     json.dump(people, f, indent=2)
