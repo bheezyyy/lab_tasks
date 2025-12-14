@@ -1,8 +1,16 @@
-WELCOME TO THE FUTURE... 
+
 
 
 --- 
-## 🔹 **Lab 1 — Tarefa 1**
+# Лабораторные работы по Python
+
+Добро пожаловать в будущее 🚀  
+Сборник лабораторных работ по курсу **Python** — от базовых операций до работы с файлами и конвертацией форматов.
+
+---
+
+## ЛР1 — Введение в Python (ввод, строки и арифметика
+## 🔹Задание - 1
 ```python
 name = input('Enter your name: ')
 age = int(input('Enter your age: '))
@@ -12,7 +20,7 @@ print(f'Hello, {name}! In a year, you will be {age + 1}.')
 ![Descrição da imagem](img/lab01/Task01.png)
 
 ---
- ## 🔹 **Lab 1 — Tarefa 2**
+## 🔹Задание - 2
 ```python
 a = input()
 b = input()
@@ -24,7 +32,7 @@ print(sumi, avg, sep='; ')
 ```
 ![Descrição da imagem](img/lab01/Task02.png)
 ---
-## 🔹 **Lab 1 — Tarefa 3**
+## 🔹Задание - 3
 ```python
 p = int(input())  # preço
 d = int(input())  # desconto %
@@ -40,14 +48,14 @@ print(f'Total: {round(total, 2)} ₽')
 ```
 ![Descrição da imagem](img/lab01/Task03.png)
 ---
-## 🔹 **Lab 1 — Tarefa 4**
+## 🔹Задание - 4
 ``` python
 t = int(input())
 print(f'{t//60}:{t%60:02d}')
 ```
 ![Descrição da imagem](img/lab01/Task04.png)
 --- 
-## 🔹 **Lab 1 — Tarefa 5**
+## 🔹Задание - 5
 ```python
 s = input().strip()
 init = ''.join([x[0] for x in s.split()])
@@ -56,7 +64,7 @@ print(len(s.replace(' ', '')) + 2)
 ```
 ![Descrição da imagem](img/lab01/Task05.png)
 --- 
-## 🔹 **Lab 1 — Tarefa 6**
+## 🔹Задание - 6
 ```python
 n = int(input())
 pres, dist = 0, 0
@@ -72,7 +80,7 @@ print(pres, dist)
 ```
 ![Descrição da imagem](img/lab01/Task06.png)
 --- 
-## 🔹 **Lab 1 — Tarefa 7**
+## 🔹Задание - 7
 ```python
 s = input()
 for i, c in enumerate(s):
@@ -87,7 +95,8 @@ print(s[start::step])
 ```
 ![Descrição da imagem](img/lab01/Task07.png)
 --- 
-## 🔹 **Lab 2 — A**
+## ЛР2 — Функции и обработка списков
+## 🔹Задание - 1
 ```python
 def min_max(lst):
     if not lst: raise ValueError("Empty list")
@@ -110,7 +119,7 @@ print(flat([[1], [], [2, 3]]))
 ```
 ![Descrição da imagem](img/lab02/01.png)
 --- 
-## 🔹 **Lab 2 — B**
+## 🔹Задание - 2
 ```python
 def transpose(m):
     if not m: return []
@@ -131,7 +140,7 @@ print(col_sum([[-1,1],[10,-10]]))
 ```
 ![Descrição da imagem](img/lab02/02.png)
 --- 
-## 🔹 **Lab 2 — C**
+## 🔹Задание - 3
 ```python
 def name_to_initials(name):
     parts = name.strip().split()
@@ -149,7 +158,8 @@ format_student(("  petrova   anna  ivanovna ", "XYZ-01", 4.0))
 ```
 ![Descrição da imagem](img/lab02/03.png)
 --- 
-## 🔹 **Lab 3 — A**
+## ЛР3 — Работа с текстом и частотный анализ
+## 🔹Задание - 1
 ```python
 import string
 
@@ -176,7 +186,7 @@ print(top_words({'a': 2, 'b': 1}))
 ```
 ![Descrição da imagem](img/lab03/01.png)
 --- 
-## 🔹 **Lab 3 — B**
+## 🔹Задание - 2
 ```python
 from text import clean, split_words, word_freq, top_words
 
@@ -200,11 +210,13 @@ main()
 ```
 ![Descrição da imagem](img/lab03/02.png)
 --- 
-## 🔹 **Lab 4 — A**
+
+## ЛР4 — Работа с файлами (TXT и CSV)
+## 🔹Задание - 1
 
 ## **[io_txt_csv.py](src/lab04/io_txt_csv.py)**
 --- 
-## 🔹 **Lab 4 — B**
+## 🔹Задание - 2
 ## **[text_report.py](src/lab04/text_report.py)** 
 
 ## Output
