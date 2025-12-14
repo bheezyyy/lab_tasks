@@ -1,0 +1,3 @@
+Python is powerful.
+Python is simple.
+I live for the code/.

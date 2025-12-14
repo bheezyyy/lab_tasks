@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Emeka Okonkwo",
+    "role": "Engineer",
+    "age": "30",
+    "country": "Nigeria"
+  },
+  {
+    "name": "Joao Baptista",
+    "role": "Designer",
+    "age": "25",
+    "country": "Angola"
+  },
+  {
+    "name": "Nneka Adebayo",
+    "role": "Manager",
+    "age": "40",
+    "country": "Nigeria"
+  },
+  {
+    "name": "Ana Mateus",
+    "role": "Data Analyst",
+    "age": "28",
+    "country": "Angola"
+  },
+  {
+    "name": "Chinedu Eze",
+    "role": "Developer",
+    "age": "32",
+    "country": "Nigeria"
+  }
+]
