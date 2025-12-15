@@ -1,0 +1,26 @@
+[
+    {
+        "fio": "Ivan Ivanov",
+        "birthdate": "2000-05-15",
+        "group": "SE-01",
+        "gpa": 4.5
+    },
+    {
+        "fio": "Maria Silva",
+        "birthdate": "2002-12-01",
+        "group": "SE-02",
+        "gpa": 3.8
+    },
+    {
+        "fio": "Pedro Santos",
+        "birthdate": "1999-01-20",
+        "group": "SE-01",
+        "gpa": 4.9
+    },
+    {
+        "fio": "Novo Aluno Teste",
+        "birthdate": "2005-01-01",
+        "group": "SE-03",
+        "gpa": 5.0
+    }
+]
